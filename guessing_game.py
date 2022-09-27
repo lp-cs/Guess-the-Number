@@ -8,7 +8,6 @@ NOTE: If you prefer to work locally on your own computer, you can totally do tha
 
 """
 
-import os
 import random
 from statistics import mean, median, mode
 
@@ -74,7 +73,6 @@ def start_game():
 
         if continue_playing.lower() == "y":
             high_score = get_min(attempt_list)
-            os.system('cls')
             print(f"\n\n\nCan you beat the high score of *{high_score}*?")
             continue
         elif continue_playing.lower() == "n":
