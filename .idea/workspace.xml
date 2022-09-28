@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c967b18f-2dfd-496f-96bc-205ea3d84f2b" name="Changes" comment="" />
+    <list default="true" id="c967b18f-2dfd-496f-96bc-205ea3d84f2b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/guessing_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
