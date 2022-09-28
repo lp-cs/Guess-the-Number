@@ -50,7 +50,7 @@ def start_game():
                     print("The answer is", answer)
                     continue
             except ValueError as err:
-                print("We ran into an issue. {}. Please try again".format(err))
+                print(f"We ran into an issue. {err}. Please try again")
             else:
                 guess_list.append(guess)
                 tries += 1
