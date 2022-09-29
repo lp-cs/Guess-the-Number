@@ -47,9 +47,10 @@ def start_game():
         while True:
             try:
                 guess = int(input("Enter your guess: "))
-                if guess == 32767:
-                    print("The answer is", answer)
-                    continue
+                # CHEATMODE:
+                # if guess == 32767:
+                #     print("The answer is", answer)
+                #     continue
             except ValueError as err:
                 print(f"We ran into an issue. {err}. Please try again")
             else:
